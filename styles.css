@@ -4,14 +4,32 @@
   background: dodgerblue;
 }
 
-h1, p{
+.container_2{
+  padding: 8;
+  text-align: center;
+  background: gray;
+}
+
+
+.footer_div{
+  background: blue;
+  padding: 0.9%;
+}
+
+h1, h2, h4, p{
   padding: 0;
   margin: 0;
+}
+
+p3{
+margin-left:12%;
 }
 
 .img_container{
   border-radius:50px;
 }
+
+
 
 img{
   padding: 0;
@@ -20,3 +38,33 @@ img{
   height:100px;
   width:100px;
 }
+
+main{
+  float: left;
+  width: 50%;
+  margin-left: 10%;
+  margin-top: 5%;
+  background: pink;
+  margin-bottom: 5%;
+}
+
+hr {
+  display: block;
+  border-width: 1px;
+  color: black;
+}
+
+aside{
+  float: right;
+  width: 20%;
+  margin-top: 5%;
+  margin-right: 10%;
+  background: green;
+}
+
+footer{
+  float: bottom;
+  clear: both;
+}
+
+
