@@ -1,0 +1,22 @@
+.container{
+  padding: 8;
+  text-align: center;
+  background: dodgerblue;
+}
+
+h1, p{
+  padding: 0;
+  margin: 0;
+}
+
+.img_container{
+  border-radius:50px;
+}
+
+img{
+  padding: 0;
+  margin: 0;
+  border-radius: 60px;
+  height:100px;
+  width:100px;
+}
