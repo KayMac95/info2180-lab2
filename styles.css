@@ -1,5 +1,7 @@
-.container{
-  padding: 8;
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 14px;
   text-align: center;
   background: dodgerblue;
 }
@@ -31,13 +33,28 @@ margin-left:12%;
 
 
 
-img{
+.headshot_img{
   padding: 0;
   margin: 0;
   border-radius: 60px;
   height:100px;
   width:100px;
 }
+
+.meditation_img{
+  float: right;
+  margin-right: 5%;
+  width: 100px;
+  height: 115px;
+}
+
+.food_img{
+  float: left;
+  margin-right: 1%;
+  width: 140px;
+  height: 120px;
+}
+
 
 main{
   float: left;
