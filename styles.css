@@ -1,9 +1,9 @@
 .container {
   display: flex;
   flex-direction: column;
-  margin: 14px;
+  padding: 14px;
   text-align: center;
-  background: dodgerblue;
+  background:#63B3ED;
 }
 
 .container_2{
