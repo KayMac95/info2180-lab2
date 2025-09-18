@@ -116,6 +116,14 @@ main p{
   color: #4299E1;
 }
 
+.vertical_link_space{
+  padding-bottom: 8px;
+}
+
+.horizontal_link_space{
+  padding-left: 60px;
+}
+
 .link_icon.fb{
   list-style: facebook;
 }
@@ -167,7 +175,35 @@ aside{
   border-radius:50px;
 }
 
+.social_media_list{
+  list-style: none;
+}
 
+.fa-facebook{
+  color: #1877F2;
+  font-size: 20px;
+  padding-bottom: 8px;
+  padding-right: 4px;
+  vertical-align: middle;
+}
+
+.fa-instagram{
+  color: #0077B5;
+  font-size: 20px;
+  padding-bottom: 5px;
+  padding-right: 4px;
+  vertical-align: middle;
+  color: magenta;
+
+}
+
+.fa-linkedin{
+  color: #0077B5;
+  font-size: 20px;
+  padding-bottom: 5px;
+  padding-right: 4px;
+  vertical-align: middle;
+}
 
 .headshot_img{
   padding: 0;
@@ -193,6 +229,9 @@ aside{
 }
 
 
+.top_padding{
+  padding-top: 40px;
+}
 
 
 hr {
